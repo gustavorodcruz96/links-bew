@@ -38,7 +38,7 @@ app.innerHTML = `
       ${links
         .map(
           (link) => `
-            <a class="link-button" href="${link.href}" target="_blank" rel="noopener noreferrer">
+            <a class="link-button h-widget-trigger" href="${link.href}" target="_blank" rel="noopener noreferrer">
               <span>${link.label}</span>
             </a>
           `,
